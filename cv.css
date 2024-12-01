@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    
+  }
+  
+  span{
+    font-family: 'helvetica', sans-serif;
+    margin: 0px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .skills{
+    font-family: 'helvetica', sans-serif;
+    margin: 16px 0px 18px 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .skills2{
+    font-family: 'helvetica', sans-serif;
+    margin: 12px 12px 12px 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h1{
+    font-family: 'Lora', serif;
+    margin: 0px;
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  h2{
+    font-family: 'Lora', serif;
+    margin: 0px;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    margin: 0px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  div{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+  
+  td {
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .Empresa{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 3px;
+  }
+  .cargo{
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .data{
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .atribuicoes{
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+  
+  main {
+    margin: 50px auto;
+    width: 960px;
+    height: 1365px;
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 28% 1fr;
+    box-shadow: 0 0 10px  rgb(110, 110, 110);
+  }
+  
+  .resumo {
+    padding: 20px;
+    margin:0px;
+    background-color: #0a082b;
+    color: #fff;
+    grid-area: a;
+    text-align: center;
+  }
+  
+  .geral {
+    background-color: #fff;
+    grid-area: b;
+    margin: 5%;
+    padding: 20px;
+  }
+  
+  img    {
+    border-radius: 50%;
+    width: 120px;
+    margin: 20px;
+  }
+  
+  @media print {
+    main {
+      margin: 0px;
+      box-shadow: 0 0 0  rgb(110, 110, 110);
+    }
+    * {
+        -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+        color-adjust: exact !important;  /*Firefox*/
+      }
+    }
